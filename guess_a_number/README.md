@@ -1,17 +1,17 @@
 # Проект 1. Угадай число
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Этапы-работы-над-проектом)  
-[5. Результат](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Результат)    
-[6. Выводы](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Выводы) 
+[1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Описание-проекта)  
+[2. Какой кейс решаем?](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Какой-кейс-решаем)  
+[3. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Краткая-информация-о-данных)  
+[4. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Этапы-работы-над-проектом)  
+[5. Результат](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Результат)    
+[6. Выводы](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Выводы) 
 
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
 
-:arrow_up: [к оглавлению](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Описание-проекта_)
+:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Оглавление)
 
 
 
@@ -31,7 +31,7 @@
 - Учимся работать с IDE.
 - Учимся работать с GitHub.
 
-:arrow_up: [к оглавлению](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Оглавление)
+:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Оглавление)
 
 ### Этапы работы над проектом  
 1. Создаем функцию, которая генерирует число в диапазоне от 1 до 100.
@@ -42,16 +42,16 @@
 6. Фиксируем сид и генерируем последовательность из 1000 случайных чисел в диапазоне от 1 до 100.
 7. Заполняем список количества попыток по каждому числу и вычисляем среднее значение списка.
 
-:arrow_up: [к оглавлению](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Оглавление)
+:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Оглавление)
 
 
 ### Результаты:  
 Программа вычисляет загаданное число в среднем за 3 попытки.
 
-:arrow_up: [к оглавлению](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Оглавление)
+:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Оглавление)
 
 
 ### Выводы:  
 С помощью сужения диапазона мы методом бинарного поиска добились, что наш алгоритм научился угадывать число в среднем за 3 попытки.
 
-:arrow_up: [к оглавлению](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number/README.md#Оглавление)
+:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Оглавление)
