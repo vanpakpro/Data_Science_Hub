@@ -27,9 +27,9 @@
 
 **Метрика качества**     
 
-Визуализация данных по клиентам банка и содержательные ответы на вопросы.
+Визуализация данных по клиентам банка и содержательные ответы на поставленные вопросы.
 
-**Что практикуем**     
+**Что практикуем:**     
 - Проведение исследований с помощью библиотеки Pandas.
 - Методы работы с числовыми и категориальными признаками.
 - Правильный выбор типа визуализации. 
@@ -37,7 +37,7 @@
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Оглавление)
 
 ### Краткая информация о данных  
-Исходные данные: [churn](https://drive.google.com/file/d/1MCCxh4MpWbWSyJUFog8LjtQ1o6QImK-n/view?usp=sharing)
+Исходные данные: [customer churn](https://drive.google.com/file/d/1MCCxh4MpWbWSyJUFog8LjtQ1o6QImK-n/view?usp=sharing)
 
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Оглавление)
 
