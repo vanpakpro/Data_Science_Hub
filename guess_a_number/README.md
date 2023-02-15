@@ -3,10 +3,9 @@
 ## Оглавление  
 [1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Описание-проекта)  
 [2. Какой кейс решаем?](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Этапы-работы-над-проектом)  
-[5. Результат](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Результат)    
-[6. Выводы](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Выводы) 
+[3. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Этапы-работы-над-проектом)  
+[4. Результаты](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Результаты)    
+[5. Выводы](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Выводы) 
 
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.

@@ -3,10 +3,8 @@
 ## Оглавление  
 [1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Описание-проекта)  
 [2. Какой кейс решаем?](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Этапы-работы-над-проектом)  
-[5. Результат](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Результат)    
-[6. Выводы](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Выводы) 
+[3. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Краткая-информация-о-данных)   
+[4. Результаты](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Результаты)    
 
 ### Описание проекта    
 Анализ клиентов крупного европейского банка и последующая визуализация.
@@ -35,6 +33,8 @@
 - Правильный выбор типа визуализации. 
 
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Оглавление)
+
+
 
 ### Краткая информация о данных  
 Исходные данные: [customer_churn](https://drive.google.com/file/d/1MCCxh4MpWbWSyJUFog8LjtQ1o6QImK-n/view?usp=sharing)
