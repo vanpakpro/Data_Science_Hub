@@ -4,8 +4,6 @@ From the [SkillFactory Data Science course](https://skillfactory.ru/data-science
 
 ## Проекты
 
-* [Проект 1. Игра: Угадай число](https://github.com/vanpakpro/Analytics---Data-Science/tree/main/Project_1.%20Guess%20a%20Number)
-* [Проект 2. ____________________]()
-* [Проект 3. ____________________]()
-
-## Ссылки на резюме
+* [Проект 1. Игра: Угадай число](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number)
+* [Проект 2. Визуализация оттока клиентов банка](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn)
+* [Проект 3. Анализ резюме из HeadHunter](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_vacancies)
