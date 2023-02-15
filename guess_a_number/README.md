@@ -45,13 +45,13 @@
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Оглавление)
 
 
-### Результаты:  
+### Результаты  
 Программа вычисляет загаданное число в среднем за 3 попытки.
 
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Оглавление)
 
 
-### Выводы:  
+### Выводы  
 С помощью сужения диапазона мы методом бинарного поиска добились, что наш алгоритм научился угадывать число в среднем за 3 попытки.
 
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/guess_a_number/README.md#Оглавление)
