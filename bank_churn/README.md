@@ -9,7 +9,7 @@
 [6. Выводы](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Выводы) 
 
 ### Описание проекта    
-Анализ клиентов крупного международного банка и последующая визуализация.
+Анализ клиентов крупного европейского банка и последующая визуализация.
 
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Оглавление)
 
@@ -20,7 +20,7 @@
 
 **Условия задания:**  
 - Мини-отчет о проделанной работе в виде ноутбука.
-- При разработке отчета должна использоваться библиотека Pandas, а также библиотеки визуалиции данных на выбор - Matplotlib, Seaborn или Plotly.
+- При разработке отчета должна использоваться библиотека Pandas, а также библиотеки визуализации данных на выбор - Matplotlib, Seaborn или Plotly.
 - В файле должно содержаться 10 графиков — 10 ответов к заданиям.
 - Каждый график и преобразования к нему выполняются в отдельной ячейке.
 - Графики должны быть читаемыми, иметь смысловые названия. Все оси должны быть подписаны.
@@ -37,7 +37,7 @@
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Оглавление)
 
 ### Краткая информация о данных  
-Исходные данные: [customer churn](https://drive.google.com/file/d/1MCCxh4MpWbWSyJUFog8LjtQ1o6QImK-n/view?usp=sharing)
+Исходные данные: [customer_churn](https://drive.google.com/file/d/1MCCxh4MpWbWSyJUFog8LjtQ1o6QImK-n/view?usp=sharing)
 
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/bank_churn/README.md#Оглавление)
 
