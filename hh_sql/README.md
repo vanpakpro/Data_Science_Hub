@@ -60,7 +60,15 @@
 
 Таблица-справочник вариантов сфер деятельности работодателей.
 
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/2c76bca09937a1a05a9e66d51008e298/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_5.png" width="595" height="128"/>
+<image src="https://lms.skillfactory.ru/assets/courseware/v1/2c76bca09937a1a05a9e66d51008e298/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_5.png" width="595" height="108"/>
+
+**EMPLOYERS_INDUSTRIES**
+
+Дополнительная таблица, которая существует для организации связи между работодателями и сферами их деятельности.
+
+Эта таблица нужна нам, поскольку у одного работодателя может быть несколько сфер деятельности (или работодатели могут вовсе не указать их). Для удобства анализа необходимо хранить запись по каждой сфере каждого работодателя в отдельной строке таблицы.
+
+<image src="https://lms.skillfactory.ru/assets/courseware/v1/16ff3df0bb0ddecd922562f3c4bdd32c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_6.png" width="595" height="108"/>
 
 ### Результаты  
 - Выполнено преобразование признаков.
