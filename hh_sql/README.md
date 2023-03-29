@@ -1,7 +1,7 @@
 # Проект 4. Анализ вакансий из HeadHunter
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Описание-проекта)
+[1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Описание-проекта) 
 [2. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Этапы-работы-над-проектом)  
 [3. Метрики качества](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Метрики-качества)  
 [4. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Краткая-информация-о-данных)    
