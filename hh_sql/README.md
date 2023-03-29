@@ -1,7 +1,8 @@
 # Проект 4. Анализ вакансий из HeadHunter
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Описание-проекта) 
+
+[1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Описание-проекта)
 [2. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Этапы-работы-над-проектом)  
 [3. Метрики качества](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Метрики-качества)  
 [4. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Краткая-информация-о-данных)    
@@ -33,6 +34,7 @@
 ### Краткая информация о данных 
 <image src="https://lms.skillfactory.ru/assets/courseware/v1/efd63819603e7d4f4433ed2fedec717c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_1.png" width="448" height="492"/>
 База данных состоит из 5 таблиц. Рассмотрим их структуру.
+
 
 **VACANCIES**
 
