@@ -3,9 +3,13 @@
 ## Оглавление  
 
 [1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Описание-проекта)
-[2. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Этапы-работы-над-проектом)  
+
+[2. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Этапы-работы-над-проектом)
+
 [3. Метрики качества](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Метрики-качества)  
-[4. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Краткая-информация-о-данных)    
+
+[4. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Краткая-информация-о-данных) 
+
 [5. Результаты](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Результаты)    
 
 ### Описание проекта    
@@ -33,14 +37,15 @@
 
 ### Краткая информация о данных 
 <image src="https://lms.skillfactory.ru/assets/courseware/v1/efd63819603e7d4f4433ed2fedec717c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_1.png" width="448" height="492"/>
-База данных состоит из 5 таблиц. Рассмотрим их структуру.
 
+База данных состоит из 5 таблиц. Рассмотрим их структуру.
 
 **VACANCIES**
 
 Таблица хранит в себе данные по вакансиям и содержит следующие столбцы:
 
 <image src="https://lms.skillfactory.ru/assets/courseware/v1/837cf6ff79f483e387a16c993634f3e4/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_2.png" width="585" height="288"/>
+
 
 Зарплатная вилка — это верхняя и нижняя граница оплаты труда в рублях (зарплаты в других валютах уже переведены в рубли). Соискателям она показывает, в каком диапазоне компания готова платить сотруднику на этой должности.
 
@@ -70,6 +75,7 @@
 Эта таблица нужна нам, поскольку у одного работодателя может быть несколько сфер деятельности (или работодатели могут вовсе не указать их). Для удобства анализа необходимо хранить запись по каждой сфере каждого работодателя в отдельной строке таблицы.
 
 <image src="https://lms.skillfactory.ru/assets/courseware/v1/16ff3df0bb0ddecd922562f3c4bdd32c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_6.png" width="595" height="108"/>
+
 
 ### Результаты  
 - Выявлены города - лидеры и компании по количеству открытых вакансий.
