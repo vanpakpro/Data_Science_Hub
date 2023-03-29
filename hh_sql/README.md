@@ -1,10 +1,10 @@
 # Проект 4. Анализ вакансий из HeadHunter
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Описание-проекта)  
-[2. Метрики качества](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Метрики-качества)  
-[3. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Этапы-работы-над-проектом)  
+[1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Описание-проекта)
+[2. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Этапы-работы-над-проектом)  
+[3. Метрики качества](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Метрики-качества)  
+[4. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Краткая-информация-о-данных)    
 [5. Результаты](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Результаты)    
 
 ### Описание проекта    
@@ -32,7 +32,6 @@
 
 ### Краткая информация о данных 
 <image src="https://lms.skillfactory.ru/assets/courseware/v1/efd63819603e7d4f4433ed2fedec717c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_1.png" width="448" height="492"/>
-
 База данных состоит из 5 таблиц. Рассмотрим их структуру.
 
 **VACANCIES**
@@ -71,9 +70,9 @@
 <image src="https://lms.skillfactory.ru/assets/courseware/v1/16ff3df0bb0ddecd922562f3c4bdd32c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_6.png" width="595" height="108"/>
 
 ### Результаты  
-- Выполнено преобразование признаков.
-- Проведен базовый и разведывательный анализ данных.
-- Спроектирована визуализация и приведены содержательные выводы к графикам.
-- Данные очищены от дубликатов и выбросов.
+- Выявлены города - лидеры и компании по количеству открытых вакансий.
+- Представлен средний диапазон зарплат, которые работодатели готовы платить своим сотрудникам.
+- Проанализированы требования работодателей к опыту работы сотрудников, а также типу трудоустройства и рабочего графика.
+- Детально рассмотрены вакансии для специалистов в области Data Science, а также текущие требования к ним и оплата труда.
 
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_vacancies/README.md#Оглавление)
