@@ -48,7 +48,7 @@
 
 Таблица-справочник, которая хранит код города и его название.
 
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/682c2306f3d46a25915a89d4ec7e16ed/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_3.png" width="585" height="118"/>
+<image src="https://lms.skillfactory.ru/assets/courseware/v1/682c2306f3d46a25915a89d4ec7e16ed/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_3.png" width="585" height="108"/>
 
 **EMPLOYERS**
 
@@ -60,7 +60,7 @@
 
 Таблица-справочник вариантов сфер деятельности работодателей.
 
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/2c76bca09937a1a05a9e66d51008e298/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_5.png" width="605" height="148"/>
+<image src="https://lms.skillfactory.ru/assets/courseware/v1/2c76bca09937a1a05a9e66d51008e298/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_5.png" width="595" height="128"/>
 
 ### Результаты  
 - Выполнено преобразование признаков.
