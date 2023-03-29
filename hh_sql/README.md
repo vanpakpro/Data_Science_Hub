@@ -49,6 +49,12 @@
 
 <image src="https://lms.skillfactory.ru/assets/courseware/v1/682c2306f3d46a25915a89d4ec7e16ed/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_3.png" width="585" height="118"/>
 
+**EMPLOYERS**
+
+Таблица-справочник со списком работодателей.
+
+<image src="https://lms.skillfactory.ru/assets/courseware/v1/d2a26db623c75572c71923b57241e038/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_4.png" width="585" height="148"/>
+
 ### Результаты  
 - Выполнено преобразование признаков.
 - Проведен базовый и разведывательный анализ данных.
