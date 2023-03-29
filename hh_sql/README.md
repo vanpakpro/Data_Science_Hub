@@ -31,7 +31,7 @@
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Оглавление)
 
 ### Краткая информация о данных 
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/efd63819603e7d4f4433ed2fedec717c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_1.png/800/600">
+<image src="https://lms.skillfactory.ru/assets/courseware/v1/efd63819603e7d4f4433ed2fedec717c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_1.png/548/592">
 
 
 ### Результаты  
