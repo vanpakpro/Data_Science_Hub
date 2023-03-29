@@ -47,7 +47,7 @@
 
 Таблица-справочник, которая хранит код города и его название.
 
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/682c2306f3d46a25915a89d4ec7e16ed/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_3.png" width="485" height="288"/>
+<image src="https://lms.skillfactory.ru/assets/courseware/v1/682c2306f3d46a25915a89d4ec7e16ed/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_3.png" width="685" height="88"/>
 
 ### Результаты  
 - Выполнено преобразование признаков.
