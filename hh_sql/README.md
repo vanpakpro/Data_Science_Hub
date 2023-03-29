@@ -76,7 +76,6 @@
 
 <image src="https://lms.skillfactory.ru/assets/courseware/v1/16ff3df0bb0ddecd922562f3c4bdd32c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_6.png" width="595" height="108"/>
 
-
 ### Результаты  
 - Выявлены города - лидеры и компании по количеству открытых вакансий.
 - Представлен средний диапазон зарплат, которые работодатели готовы платить своим сотрудникам.
