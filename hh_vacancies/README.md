@@ -1,4 +1,4 @@
-# Проект 3. Анализ резюме из HeadHunter
+# Проект 1. Анализ резюме из HeadHunter
 
 ## Оглавление  
 [1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_vacancies/README.md#Описание-проекта)  
