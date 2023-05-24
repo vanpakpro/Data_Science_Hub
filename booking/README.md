@@ -1,85 +1,59 @@
-# Проект 2. Анализ вакансий из HeadHunter
+# Проект 3. Прогнозирование рейтинга отеля на Booking.com
 
 ## Оглавление  
 
-[1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Описание-проекта)
+[1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/booking/README.md#Описание-проекта)
 
-[2. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Этапы-работы-над-проектом)
+[2. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/booking/README.md#Этапы-работы-над-проектом)
 
-[3. Метрики качества](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Метрики-качества)  
+[3. Метрики качества](https://github.com/vanpakpro/Data_Science_Hub/tree/main/booking/README.md#Метрики-качества)  
 
-[4. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Краткая-информация-о-данных) 
+[4. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/booking/README.md#Краткая-информация-о-данных) 
 
-[5. Результаты](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Результаты)    
+[5. Результаты](https://github.com/vanpakpro/Data_Science_Hub/tree/main/booking/README.md#Результаты)    
 
 ### Описание проекта    
-Компания HeadHunter хочет построить модель, которая рекомендует вакансии клиентам кадрового агентства, претендующим на позицию Data Scientist. Однако сначала нужно понять, что из себя представляют данные и насколько они соответствуют целям проекта.
+Booking.com — система онлайн бронирования отелей и одна из крупнейших международных площадок по предоставлению услуг путешественникам со всего мира. Одна из проблем компании — это нечестные отели и гостиницы, которые накручивают себе рейтинг. Одним из способов обнаружения таких отелей является построение модели, которая предсказывает его рейтинг. Если предсказания модели сильно отличаются от фактического результата, то, возможно, отель ведёт себя нечестно, и его стоит проверить.
 
-:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Оглавление)
+:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/booking/README.md#Оглавление)
 
 ### Этапы работы над проектом  
-1. Знакомство с данными
-2. Предварительный анализ данных
-3. Детальный анализ вакансий
-4. Анализ работодателей
-5. Предметный анализ
+1. Загрузка и подготовка данных
+2. Исследование структуры данных
+3. EDA и преобразование данных
+4. Сортировка отзывов
+5. Корреляционный анализ и оценка значимости признаков
+6. Создание и обучение модели
+7. Summary
 
-:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Оглавление)
+:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/booking/README.md#Оглавление)
 
 **Метрики качества**     
-- Решение оформлено в Jupyter Notebook.
-- Решение оформлено в соответствии с ноутбуком-шаблоном.
-- Каждое задание выполнено в отдельных ячейках, выделенных под задание.
-- Текст SQL-запросов и код на Python должны быть читаемыми.
-- Выводы по каждому этапу оформлены в формате Markdown в отдельной ячейке.
+- Качество кода (оформление в соответствии со стандартами PEP-8)
+- Очистка данных
+- Разведывательный анализ данных (EDA), наличие визуализации, гипотез и комментариев
+- Генерация признаков
+- Преобразование признаков
 
-:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_sql/README.md#Оглавление)
+Для оценки качества модели — точности прогнозов, сделанных моделью, — используем метрику MAPE (mean absolute percentage error). Эту метрику легко интерпретировать. Если MAPE = 11.4 %, то это говорит о том, что ошибка составила 11.4 % от фактических значений.
 
-### Краткая информация о данных 
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/efd63819603e7d4f4433ed2fedec717c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_1.png" width="448" height="492"/>
+![MAPE](MAPE.png)
 
-База данных состоит из 5 таблиц. Рассмотрим их структуру.
+MAPE = (1 / n) * Σ(|(y_i - x_i)/y_i|)
 
-**VACANCIES**
+\text{MAPE} = \frac{1}{n} \sum\limits_{i=1}^{n}\left|\frac{y_i - x_i}{y_i}\right|
 
-Таблица хранит в себе данные по вакансиям и содержит следующие столбцы:
+:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/booking/README.md#Оглавление)
 
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/837cf6ff79f483e387a16c993634f3e4/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_2.png" width="585" height="288"/>
-
-
-Зарплатная вилка — это верхняя и нижняя граница оплаты труда в рублях (зарплаты в других валютах уже переведены в рубли). Соискателям она показывает, в каком диапазоне компания готова платить сотруднику на этой должности.
-
-
-**AREAS**
-
-Таблица-справочник, которая хранит код города и его название.
-
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/682c2306f3d46a25915a89d4ec7e16ed/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_3.png" width="585" height="108"/>
-
-**EMPLOYERS**
-
-Таблица-справочник со списком работодателей.
-
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/d2a26db623c75572c71923b57241e038/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_4.png" width="585" height="148"/>
-
-**INDUSTRIES**
-
-Таблица-справочник вариантов сфер деятельности работодателей.
-
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/2c76bca09937a1a05a9e66d51008e298/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_5.png" width="595" height="108"/>
-
-**EMPLOYERS_INDUSTRIES**
-
-Дополнительная таблица, которая существует для организации связи между работодателями и сферами их деятельности.
-
-Эта таблица нужна нам, поскольку у одного работодателя может быть несколько сфер деятельности (или работодатели могут вовсе не указать их). Для удобства анализа необходимо хранить запись по каждой сфере каждого работодателя в отдельной строке таблицы.
-
-<image src="https://lms.skillfactory.ru/assets/courseware/v1/16ff3df0bb0ddecd922562f3c4bdd32c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_6.png" width="595" height="108"/>
+### Краткая информация о данных
+ 
+Тренировочная и тестовая выборка, выгруженная с Kaggle: [booking_data](https://drive.google.com/file/d/1_jG0TwHTpv359vJvX1s7mpJllHX4qLrC/view?usp=sharing)
 
 ### Результаты  
-- Выявлены города - лидеры и компании по количеству открытых вакансий.
-- Представлен средний диапазон зарплат, которые работодатели готовы платить своим сотрудникам.
-- Проанализированы требования работодателей к опыту работы сотрудников, а также типу трудоустройства и рабочего графика.
-- Детально рассмотрены вакансии для специалистов в области Data Science, а также текущие требования к ним и оплата труда.
+- Данные очищены и подготовлены к дальнейшему анализу
+- Сгенерировано 18 новых вспомогательных признаков на основе исходных для последующего обучения по ним модели
+- Осуществлен корреляционный анализ и проведены статистические тесты значимости признаков
+- На основе преобразованных данных создана и обучена модель RandomForestRegressor
+- Результат метрики на текущий момент MAPE = 13.307339
 
-:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/hh_vacancies/README.md#Оглавление)
+:arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/booking/README.md#Оглавление)
