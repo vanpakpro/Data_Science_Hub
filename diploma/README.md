@@ -4,13 +4,14 @@
 [1. Описание проекта](https://github.com/vanpakpro/Data_Science_Hub/tree/main/diploma/README.md#Описание-проекта)  
 [2. Метрики качества](https://github.com/vanpakpro/Data_Science_Hub/tree/main/diploma/README.md#Метрики-качества)  
 [3. Краткая информация о данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/diploma/README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/diploma/README.md#Этапы-работы-над-проектом)  
-[5. Результаты](https://github.com/vanpakpro/Data_Science_Hub/tree/main/diploma/README.md#Результаты)    
+[4. Описание исходных данных](https://github.com/vanpakpro/Data_Science_Hub/tree/main/diploma/README.md#Описание-исходных-данных)  
+[5. Этапы работы над проектом](https://github.com/vanpakpro/Data_Science_Hub/tree/main/diploma/README.md#Этапы-работы-над-проектом)  
+[6. Результаты](https://github.com/vanpakpro/Data_Science_Hub/tree/main/diploma/README.md#Результаты)    
 
 ### Описание проекта    
 Агентство недвижимости столкнулось с проблемой — риелторы тратят слишком много времени на сортировку объявлений и поиск выгодных предложений. Поэтому скорость их реакции и качество анализа не дотягивают до уровня конкурентов. Это сказывается на финансовых показателях агентства.
 
-Техническая задача — разработать модель машинного обучения, которая поможет обрабатывать объявления и увеличит число сделок и прибыль агентства.
+**Техническая задача** — разработать модель машинного обучения, которая поможет обрабатывать объявления и увеличит число сделок и прибыль агентства.
 
 :arrow_up: [к оглавлению](https://github.com/vanpakpro/Data_Science_Hub/tree/main/diploma/README.md#Оглавление)
 
@@ -31,6 +32,32 @@
 
 ### Краткая информация о данных 
 - Необработанный датасет, выгруженный из баз данных агентства недвижимости: [realty_data](https://drive.google.com/file/d/1wPdVccTVCTh3b6SteHPxeDt3AcSyG0FJ/view?usp=sharing)
+
+### Описание исходных данных
+
+**Описание объекта недвижимости**  
+`status` — статус продажи;  
+`private pool` и `PrivatePool` — наличие собственного бассейна;  
+`propertyType` — тип объекта недвижимости;  
+`baths` — количество ванных комнат;  
+`homeFacts` — сведения о строительстве объекта (содержит несколько типов сведений, влияющих на оценку объекта);    
+`fireplace` — наличие камина;  
+`sqft` — площадь в футах;  
+`beds` — количество спален;  
+`stories` — количество этажей;  
+`mls-id` и `MlsId` — идентификатор MLS (Multiple Listing Service, система мультилистинга);
+
+**Географическая информация**  
+
+`street` — адрес объекта;  
+`city` — город;  
+`schools` — сведения о школах в районе;    
+`zipcode` — почтовый индекс;    
+`state` — штат;  
+
+**Целевой фактор**
+  
+`target` — цена объекта недвижимости (его и будем прогнозировать).
 
 ### Этапы работы над проектом  
 1. [Базовый анализ структуры и предобработка данных](https://github.com/vanpakpro/Data_Science_Hub/blob/main/diploma/Preprocessing.ipynb)
